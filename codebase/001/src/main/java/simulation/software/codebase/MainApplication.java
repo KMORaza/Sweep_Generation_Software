@@ -1,0 +1,22 @@
+package simulation.software.codebase;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class MainApplication extends Application {
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("SweepGenerator.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 1300, 800);
+        scene.getStylesheets().add(getClass().getResource("Theme.css").toExternalForm());
+        primaryStage.setTitle("Sweep Generator");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
