@@ -41,3 +41,8 @@
 20. **Data Export Functionality**: Each analyzer and the main controller support exporting data to CSV files using `FileChooser`, saving time-amplitude pairs (`WaveformGenerator`, `SpectrumAnalyzer`, `DigitalToAnalogConversion`), frequency/period (`FrequencyCounter`), phase/fundamental frequency (`PhaseAnalyzer`), or THD/harmonic amplitudes (`TotalHarmonicDistortion`), enabling data analysis outside the application.
 
 21. **Dynamic Axis Management**: The `SweepGeneratorController` adjusts the waveform chart’s x-axis based on sweep type (time in seconds for Time sweep, milliseconds otherwise), while analyzers like `SpectrumAnalyzer` and `TotalHarmonicDistortion` set frequency axes up to the Nyquist limit or 10 kHz, ensuring appropriate scaling for different signal types.
+
+
+![](https://github.com/KMORaza/Sweep_Generation_Software/blob/main/codebase/src/main/screenshot%20(2).png)
+
+**`NOTE: This software is quite useful for sweep generation and simulation but some of its features have imperfections and might cause errors. If I'll fix these defects in future, I'll either update this repository or will create a new one.`**
