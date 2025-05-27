@@ -1,5 +1,7 @@
 ## Sweep Generation Software
 
+(May 27 2025) I have improved this software and also I incorporated some advanced features. I have created new [repository](https://github.com/KMORaza/Sweep_Generation_Software_2) for the enhanced version. I wrote the software again from scratch but using Java Swing unlike this version which I wrote in JavaFX. 
+
 1. This software is written for generating and analyzing frequency sweeps, simulating real-world signal processing with a focus on audio applications. It employs algorithms like Cooley-Tukey FFT for spectral analysis, linear/logarithmic interpolation for sweeps and DAC resampling, and mathematical models for modulation and noise.
 
 2. **Waveform Generation Core Logic**: The `WaveformGenerator` class is responsible for generating waveforms (sine, square, triangle) based on user-specified parameters such as frequency, amplitude, and time array. It uses mathematical functions (`Math.sin`, `Math.signum`, and a triangle wave formula) to compute waveform values, applies modulation via `ModulationGenerator`, and adds noise via `NoiseGenerator`, with amplitude clamping to [-5, 5] to prevent extreme values, ensuring stable waveform output for analysis.
