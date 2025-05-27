@@ -1,4 +1,4 @@
-## Sweep Generation Software
+## Software für Sweep-Generierung (Sweep Generation Software)
 
 (May 27 2025) I have improved this software and also I incorporated some advanced features. I have created new [repository](https://github.com/KMORaza/Sweep_Generation_Software_2) for the enhanced version. I wrote the software again from scratch but using Java Swing unlike this version which I wrote in JavaFX. 
 
